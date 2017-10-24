@@ -4,7 +4,7 @@ while True:
         break
 
     if len(name) < 3:
-        print('너무 작습니다. 다시 입력해주세요.')
+        print('3글자 이상으로 입력해주세요.')
         continue
 
-    print('이름을 입력하셨습니다.')
+    print('입력하신 이름은 {0}입니다. {0}님 반갑습니다.\n'.format(name))

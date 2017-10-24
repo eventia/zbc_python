@@ -6,7 +6,9 @@
 
 for firstNumber in range(2,10):
     for secondNumber in range(1,10):
-        print(firstNumber, '*', secondNumber, '=', firstNumber*secondNumber)
+        # print(firstNumber, '*', secondNumber, '=', firstNumber*secondNumber)
+        print("{} * {} = {}".format(firstNumber,secondNumber,firstNumber*secondNumber))
+        # print(str(firstNumber)+ ' * '+str(secondNumber)+' = '+str(firstNumber*secondNumber))
     print('')
 
 print("구구단출력 완료")
