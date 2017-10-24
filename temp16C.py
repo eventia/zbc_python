@@ -1,5 +1,5 @@
 def print_max(x, y):
-    '''Prints the maximum of two numbers.
+    '''    Prints the maximum of two numbers.
 
     The two values must be integers.'''
     x = int(x)
